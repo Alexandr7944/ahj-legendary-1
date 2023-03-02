@@ -48,11 +48,11 @@
 }
 
 .game {
-  cursor: url('../../../img/icon-hammer.png'), auto;
+  cursor: url('../img/icon-hammer.png'), auto;
 }
 
 .goblin {
-  cursor: url('../../../img/icon-hammer-2.png'), auto;
+  cursor: url('../img/icon-hammer-2.png'), auto;
 }
 
 .game-over {
