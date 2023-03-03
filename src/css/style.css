@@ -12,10 +12,12 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  -moz-user-select: none;
+  -webkit-user-select: none;
 }
 
 .wrapper-btn {
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 .wrapper-btn button {
@@ -52,7 +54,8 @@
 }
 
 .goblin {
-  cursor: url('../img/icon-hammer-2.png'), auto;
+  /* cursor: url('../img/icon-hammer-2.png'), auto; */
+  cursor: crosshair;
 }
 
 .game-over {
@@ -93,7 +96,7 @@
 }
 
 .count {
-  margin-top: 20px;
+  margin: 20px 0;
   text-align: center;
   font-size: 40px;
   font-weight: 700;
@@ -102,4 +105,20 @@
   background-color: rgb(238, 226, 212);
   box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.5);
   text-shadow: 2px 4px 5px rgba(0, 0, 0, 0.5);
+}
+
+progress {
+  border-radius: 7px; 
+  width: 100%;
+  height: 22px;
+  box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.5);
+}
+progress::-webkit-progress-bar {
+  background-color: transparent;
+  border-radius: 7px;
+}
+progress::-webkit-progress-value {
+  background-color: rgb(134, 107, 107);
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px 3px rgba( 255, 0, 0, 0.6 );
 }
