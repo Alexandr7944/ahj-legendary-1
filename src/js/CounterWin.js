@@ -1,6 +1,6 @@
 /* eslint-disable prettier/prettier */
 
-export default class Counter{
+export default class CounterWin{
   constructor(progress) {
     this._count = 5;
     this.progress = progress;

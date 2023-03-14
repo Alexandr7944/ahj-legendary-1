@@ -1,14 +1,14 @@
 /* eslint-disable prettier/prettier */
 
 import Goblin from './Goblin';
-import Progress from './progress';
-import Counter from './counter';
-import GameController from './gameController';
+import Progress from './Progress';
+import CounterWin from './CounterWin';
+import GameController from './GameController';
 
 const goblin = new Goblin(document.querySelector('.game'));
 const progress = new Progress();
-const counter = new Counter(progress);
-const gameController = new GameController(goblin, counter);
+const counterWin = new CounterWin(progress);
+const gameController = new GameController(goblin, counterWin);
 
 const stop = document.querySelector('.stop-game');
 const start = document.querySelector('.new-game');
